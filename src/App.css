@@ -93,6 +93,7 @@ body {
 
 .track > p {
   margin-left: 20px;
+  font-size: 12px;
 }
 
 .container-playlist-and-track {
@@ -121,8 +122,15 @@ body {
   background-size: contain;
 }
 
+.album-img {
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+}
+
 .playlist > p {
   margin-left: 20px;
+  font-size: 12px;
 }
 
 .playlist {
@@ -135,4 +143,120 @@ body {
 
 .container-playlist > h1 {
   margin-left: 20px;
+  font-size: 20px;
+}
+
+.next-offset-button {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #16b552;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.img-album {
+  width: 70px;
+  background-size: contain;
+}
+
+.container-album-search {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.album-search > p {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.album-search {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.container-track > h1 {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.container-select {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.select-category {
+  background: #ffffff;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: 1px solid #dedede;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.select-category:hover {
+  background: #e0e0e0;
+}
+
+.select-category:active {
+  background: #d0d0d0;
+}
+
+.select-category > p {
+  font-size: 12px;
+  padding: 0;
+  font-weight: 400;
+}
+
+.container-track-search-album {
+  /* grid 4  */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100%;
 }
