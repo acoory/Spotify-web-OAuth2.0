@@ -280,7 +280,13 @@ function App() {
                         className="track-search"
                         onClick={() => play(item.uri)}
                       >
-                        <img src={item.images[0].url} />
+                        {item.images[0] ? (
+                          <img
+                            className="artist-img"
+                            src={item.images[0].url}
+                          />
+                        ) : null}
+                        {/* <img src={item.images[0].url} /> */}
                         <p>{item.name}</p>
                       </div>
                     ))}

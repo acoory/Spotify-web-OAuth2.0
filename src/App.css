@@ -254,7 +254,7 @@ body {
 
 .container-track-search-album {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 10px;
   justify-items: center;
@@ -265,7 +265,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .container-track-search-album {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
