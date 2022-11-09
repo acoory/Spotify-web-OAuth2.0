@@ -23,9 +23,9 @@ function App() {
   const [offset, setOffset] = useState(1);
   const [uriPlaylist, seturiPlaylist] = useState("");
 
-  const clientId = "c116f2f89bb64ccebd9dcf647b261fbd";
-  const clientSecret = "c116f2f89bb64ccebd9dcf647b261fbd";
-  const redirectUri = "http://localhost:3000/succes";
+  const clientId = process.env.clientId;
+  const clientSecret = process.env.clientSecret;
+  const redirectUri = process.env.redirectUri;
 
   // autorization api
   const scope = [
