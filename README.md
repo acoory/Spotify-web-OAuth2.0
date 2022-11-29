@@ -1,6 +1,6 @@
 # Spotify Web
 
-Connect to your account spotify and play your sound
+Application web using a spotify api connect your account play your songs, album
 
 ## Screenshots
 
