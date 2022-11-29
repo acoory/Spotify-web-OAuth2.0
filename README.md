@@ -9,8 +9,8 @@ Connect to your account spotify and play your sound
 ## Installation
 
 ```bash
-  git clone https://github.com/acoory/spotify-web-api
-  cd spotify-web-api
+  git clone https://github.com/acoory/React-spotify-web-api
+  cd React-spotify-web-api
 ```
 
 - Create developper account in spotify https://developer.spotify.com/dashboard/
