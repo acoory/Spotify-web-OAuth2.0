@@ -1,12 +1,12 @@
-# Spotify Web
+# Spotify Web 💻
 
 Application web using a spotify api connect your account play your songs, album
 
-## Screenshots
+## Screenshots 📸
 
 <img src="https://i.ibb.co/zJJndBc/ezgif-com-gif-maker.gif" width="300"/>
 
-## Installation
+## Installation 🗒️
 
 ```bash
   git clone https://github.com/acoory/React-spotify-web-api
